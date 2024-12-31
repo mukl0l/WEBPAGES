@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+.scrolling-text {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background: linear-gradient(to right, #111827, #1f2937);
+    color: #fbbf24;
+    font-size: 1.25rem;
+}
+
+.scrolling-text p {
+    display: inline-block;
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.scrolling-text p::after {
+    content: attr(data-text);
+}

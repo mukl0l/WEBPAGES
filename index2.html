@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk Sci-Fi Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+        .scrolling-text {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            background: linear-gradient(to right, #111827, #1f2937);
+            color: #fbbf24;
+            font-size: 1.25rem;
+            animation: scroll 10s linear infinite;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-b from-black via-gray-900 to-black text-white">
+    <div class="container mx-auto p-6">
+        <div
+            class="bg-yellow-500 text-black font-bold p-4 border-4 border-orange-600 text-center mb-6 rounded-lg shadow-lg">
+            <p class="text-2xl tracking-wide">⚠️ WARNING! ⚠️</p>
+        </div>
+
+        <div class="message-box bg-gray-800 border-4 border-orange-500 p-6 relative shadow-lg rounded-lg mb-6">
+            <button
+                class="absolute top-4 right-4 bg-red-600 text-white font-bold py-2 px-4 rounded-full hover:bg-red-700">X</button>
+            <h2 class="text-2xl font-bold mb-4 text-orange-400">HELLO ARNAV</h2>
+            <p class="text-yellow-300">yaha pai mail daldena koi bhi pls storyline se match kar ke :)<br>
+                give hint to check ip address</p>
+        </div>
+
+        <div class="grid grid-cols-4 gap-6 mb-6">
+            <div
+                class="bg-gray-800 border-2 border-white h-24 flex items-center justify-center text-lg font-bold text-yellow-500 hover:border-orange-500 transition transform hover:scale-105">
+                ANSWER OF ROOM 1</div>
+            <div
+                class="bg-gray-800 border-2 border-white h-24 flex items-center justify-center text-lg font-bold text-yellow-500 hover:border-orange-500 transition transform hover:scale-105">
+                ANSWER OF ROOM 2</div>
+            <div
+                class="bg-gray-800 border-4 border-orange-500 h-24 flex items-center justify-center text-lg font-bold text-orange-500 transform scale-105">
+                III</div>
+            <div
+                class="bg-gray-800 border-2 border-white h-24 flex items-center justify-center text-lg font-bold text-yellow-500 hover:border-orange-500 transition transform hover:scale-105">
+                ANSWER OF ROOM 3</div>
+            <div
+                class="bg-gray-800 border-4 border-orange-500 h-24 flex items-center justify-center text-lg font-bold text-orange-500 transform scale-105">
+                NEXT &gt;&gt;</div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-6">
+            <div class="bg-gray-900 border-2 border-gray-700 rounded-lg shadow-lg overflow-hidden">
+                <img src="https://via.placeholder.com/150" alt="Sample" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-yellow-400 text-lg font-bold mb-2">Image Title 1</h3>
+                    <p class="text-gray-300 text-sm">Description for the first image can go here, providing more
+                        details.</p>
+                </div>
+            </div>
+            <div class="bg-gray-900 border-2 border-gray-700 rounded-lg shadow-lg overflow-hidden">
+                <img src="https://via.placeholder.com/150" alt="Sample" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-yellow-400 text-lg font-bold mb-2">Image Title 2</h3>
+                    <p class="text-gray-300 text-sm">Description for the second image can go here, providing more
+                        details.</p>
+                </div>
+            </div>
+            <div class="bg-gray-900 border-2 border-gray-700 rounded-lg shadow-lg overflow-hidden">
+                <img src="https://via.placeholder.com/150" alt="Sample" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-yellow-400 text-lg font-bold mb-2">Image Title 3</h3>
+                    <p class="text-gray-300 text-sm">Description for the third image can go here, providing more
+                        details.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center text-yellow-300 text-sm mt-8">
+            <p>Yaha pai loop mai kuch info chala dena, jis main answer hoga kuch try karna to put emphasis on it</p>
+        </div>
+    </div>
+
+    <div class="scrolling-text">
+        <p>This is a continuous scrolling text. Add any important message here to catch the user's attention!</p>
+    </div>
+</body>
+
+</html>
